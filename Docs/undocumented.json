@@ -1,0 +1,96 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/aaronpendley/dev/loyalty-sdk-ios/Loyalty/Common/Environment.swift",
+      "line": 14,
+      "symbol": "Environment",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aaronpendley/dev/loyalty-sdk-ios/Loyalty/Common/Environment.swift",
+      "line": 15,
+      "symbol": "Environment.prod",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aaronpendley/dev/loyalty-sdk-ios/Loyalty/Common/Environment.swift",
+      "line": 16,
+      "symbol": "Environment.stage",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aaronpendley/dev/loyalty-sdk-ios/Loyalty/Common/Environment.swift",
+      "line": 17,
+      "symbol": "Environment.dev",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aaronpendley/dev/loyalty-sdk-ios/Loyalty/Managers/AssetManager.swift",
+      "line": 17,
+      "symbol": "AssetManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aaronpendley/dev/loyalty-sdk-ios/Loyalty/Managers/LinkManager.swift",
+      "line": 16,
+      "symbol": "LinkManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aaronpendley/dev/loyalty-sdk-ios/Loyalty/Managers/LogManager.swift",
+      "line": 12,
+      "symbol": "LogManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aaronpendley/dev/loyalty-sdk-ios/Loyalty/Managers/LogManager.swift",
+      "line": 14,
+      "symbol": "LogManager.LogLevel",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aaronpendley/dev/loyalty-sdk-ios/Loyalty/Managers/LogManager.swift",
+      "line": 15,
+      "symbol": "LogManager.LogLevel.error",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aaronpendley/dev/loyalty-sdk-ios/Loyalty/Managers/LogManager.swift",
+      "line": 16,
+      "symbol": "LogManager.LogLevel.warning",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aaronpendley/dev/loyalty-sdk-ios/Loyalty/Managers/LogManager.swift",
+      "line": 17,
+      "symbol": "LogManager.LogLevel.info",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aaronpendley/dev/loyalty-sdk-ios/Loyalty/Managers/LogManager.swift",
+      "line": 18,
+      "symbol": "LogManager.LogLevel.debug",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/aaronpendley/dev/loyalty-sdk-ios/Loyalty/Models/SideEffect.swift",
+      "line": 11,
+      "symbol": "SideEffect",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/aaronpendley/dev/loyalty-sdk-ios"
+}

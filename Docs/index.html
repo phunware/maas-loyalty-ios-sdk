@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Loyalty  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a title="Loyalty  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">Loyalty 1.0.0 Docs</a> (63% documented)</p>
+        <p class="header-right">
+          <form role="search" action="search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">Loyalty Reference</a>
+        <img id="carat" src="img/carat.png" />
+        Loyalty  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/AssetManager.html">AssetManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/LinkManager.html">LinkManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/LogManager.html">LogManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/LogManager/LogLevel.html">– LogLevel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Global%20Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Global%20Variables.html#/s:7Loyalty12assetManagerAA05AssetC0Cvp">assetManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Global%20Variables.html#/s:7Loyalty11linkManagerAA04LinkC0Cvp">linkManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Global%20Variables.html#/s:7Loyalty11serviceNameSSvp">serviceName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Global%20Variables.html#/s:7Loyalty7versionSSvp">version</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/Environment.html">Environment</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/Asset.html">Asset</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SideEffect.html">SideEffect</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:7Loyalty17BalanceCompletiona">BalanceCompletion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:7Loyalty19FireEventCompletiona">FireEventCompletion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:7Loyalty14LinkCompletiona">LinkCompletion</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <h1 id='loyalty-sdk-a-href-img-src-https-img-shields-io-badge-swift-5-0-234c20f0-svg-alt-language-a-a-href-img-src-https-img-shields-io-badge-release-0-1-0-234c20f0-svg-alt-release-a' class='heading'>Loyalty SDK <a href=""><img src="https://img.shields.io/badge/Swift-5.0-%234c20f0.svg" alt="Language"></a> <a href=""><img src="https://img.shields.io/badge/Release-0.1.0-%234c20f0.svg" alt="Release"></a></h1>
+
+<p><code>Loyalty SDK</code> is an iOS and Android SDK that allows you to reward your users digital currency that can be exchanged for digital goods in your own loyalty coin powered ecosystem.</p>
+
+<p><strong><em><sub>note</sub></em></strong> <br/></p>
+
+<blockquote>
+<p><code>Loyalty SDK</code> currently only supports iOS projects written in <strong>Swift 5.0</strong>+.</p>
+</blockquote>
+<h2 id='a-href-installation-using-loyalty-sdk-a' class='heading'><a href="#installation">Using Loyalty SDK</a></h2>
+<h3 id='strong-cocoapods-strong' class='heading'><strong>CocoaPods</strong></h3>
+
+<p>If using <a href="https://cocoapods.org/">CocoaPods</a>, add the following to your Podfile:</p>
+<pre class="highlight ruby"><code><span class="n">pod</span> <span class="s1">'Loyalty'</span><span class="p">,</span> <span class="s1">'0.1.0'</span>
+</code></pre>
+
+<hr>
+<h2 id='a-href-usage-overview-usage-overview-a' class='heading'><a href="#usage-overview">Usage Overview</a></h2>
+<h3 id='strong-initialization-strong' class='heading'><strong>Initialization</strong></h3>
+
+<p><code>Loyalty SDK</code> is initialized along with your current <a href="https://github.com/phunware/maas-core-ios-sdk">MaaS SDK integration</a>.  That being said, the important integration steps are setting up MaaS Core with relevant appId, accessKey, and secret.</p>
+
+<hr>
+<h3 id='strong-opt-in-strong' class='heading'><strong>Opt In</strong></h3>
+
+<p><code>Loyalty SDK</code> is opt in by default and based around your own system of registered users.  To opt your user in you will need to provide the SDK with a unique identifier for the user that maps cleanly to the representation of the user in your own system (such as the email they used to register with your app). It is expected that you will track the opt in state in your own app.</p>
+<pre class="highlight swift"><code><span class="kt">Loyalty</span><span class="o">.</span><span class="n">linkManager</span><span class="o">.</span><span class="nf">linkUser</span><span class="p">(</span><span class="nv">user</span><span class="p">:</span> <span class="s">"joe@phunware.com"</span><span class="p">)</span> <span class="p">{</span> <span class="p">[</span><span class="k">weak</span> <span class="k">self</span><span class="p">]</span> <span class="n">result</span> <span class="k">in</span>
+    <span class="k">switch</span> <span class="n">result</span> <span class="p">{</span>
+    <span class="k">case</span> <span class="o">.</span><span class="nv">success</span><span class="p">:</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"Success!"</span><span class="p">)</span>
+    <span class="k">case</span> <span class="o">.</span><span class="nf">failure</span><span class="p">(</span><span class="k">let</span> <span class="nv">error</span><span class="p">):</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"Failure"</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+<hr>
+<h3 id='strong-checking-the-users-balance-strong' class='heading'><strong>Checking the users balance</strong></h3>
+
+<p>Phunware will maintain a pending balance for your previously opted in users on our servers.  You can request this balance at any time (after opt in).</p>
+
+<p>The actual user balance will be returned along with the provided image and metadata you have previously setup in the portal for your loyalty coin.</p>
+<pre class="highlight swift"><code><span class="kt">Loyalty</span><span class="o">.</span><span class="n">assetManager</span><span class="o">.</span><span class="n">balance</span> <span class="p">{</span> <span class="p">[</span><span class="k">weak</span> <span class="k">self</span><span class="p">]</span> <span class="n">result</span> <span class="k">in</span>
+    <span class="k">switch</span> <span class="n">result</span> <span class="p">{</span>
+    <span class="k">case</span> <span class="o">.</span><span class="nf">success</span><span class="p">(</span><span class="k">let</span> <span class="nv">asset</span><span class="p">):</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"Balance is </span><span class="se">\(</span><span class="n">asset</span><span class="o">.</span><span class="n">balance</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+    <span class="k">case</span> <span class="o">.</span><span class="nf">failure</span><span class="p">(</span><span class="k">let</span> <span class="nv">error</span><span class="p">):</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"Failed to get balance"</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+<hr>
+<h3 id='strong-events-strong' class='heading'><strong>Events</strong></h3>
+
+<p>Instrumented Events can be used to reward your user with new loyalty coins or to deduct from their balance to unlock digital content.</p>
+
+<p>Your instrumented events must be setup ahead of time on the portal, along with any additional thresholds and limits.</p>
+<pre class="highlight swift"><code><span class="c1">// Share a recipe.  This earns the user Dessert Coins.</span>
+<span class="kt">Loyalty</span><span class="o">.</span><span class="n">assetManager</span><span class="o">.</span><span class="nf">fireEvent</span><span class="p">(</span><span class="nv">eventName</span><span class="p">:</span> <span class="s">"share_recipe"</span><span class="p">,</span> <span class="nv">parameters</span><span class="p">:</span> <span class="p">[</span><span class="s">"donut"</span><span class="p">])</span> <span class="p">{</span> <span class="p">[</span><span class="k">weak</span> <span class="k">self</span><span class="p">]</span> <span class="n">result</span> <span class="k">in</span>
+    <span class="k">switch</span> <span class="n">result</span> <span class="p">{</span>
+    <span class="k">case</span> <span class="o">.</span><span class="nf">success</span><span class="p">(</span><span class="k">let</span> <span class="nv">sideEffects</span><span class="p">):</span>
+        <span class="c1">// List of SideEffects will have displayable values</span>
+        <span class="c1">// setup on the portal.</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"Success!"</span><span class="p">)</span>
+    <span class="k">case</span> <span class="o">.</span><span class="nf">failure</span><span class="p">(</span><span class="k">let</span> <span class="nv">error</span><span class="p">):</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"Failure"</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+<hr>
+<h3 id='strong-linking-to-phuncoin-strong' class='heading'><strong>Linking to PhunCoin</strong></h3>
+
+<p>You have the option of letting your users link their loyalty coin balance to the Phunware PhunWallet app.  If you have enabled conversion of your loyalty coin into PhunCoin, your users will be able to convert at the threshold you specify.</p>
+<pre class="highlight swift"><code><span class="kt">Loyalty</span><span class="o">.</span><span class="n">linkManager</span><span class="o">.</span><span class="n">linkWallet</span> <span class="p">{</span> <span class="p">[</span><span class="k">weak</span> <span class="k">self</span><span class="p">]</span> <span class="n">result</span> <span class="k">in</span>
+    <span class="k">switch</span> <span class="n">result</span> <span class="p">{</span>
+    <span class="k">case</span> <span class="o">.</span><span class="nv">success</span><span class="p">:</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"PhunCoin app installed and linking is in progress."</span><span class="p">)</span>
+    <span class="k">case</span> <span class="o">.</span><span class="nf">failure</span><span class="p">(</span><span class="k">let</span> <span class="nv">error</span><span class="p">):</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"PhunCoin app not installed or other failure."</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+<hr>
+
+<p><a id="class"></a></p>
+<h2 id='class-reference-documentation' class='heading'>Class Reference Documentation</h2>
+
+<p>The <a href="https://phunware.github.io/maas-loyalty-sdk-ios">Reference Documentation</a> has all of the detailed usage information including all the public methods, parameters, and convenience initializers.</p>
+
+<hr>
+
+<p><a id="privacy"></a></p>
+<h2 id='privacy' class='heading'>Privacy</h2>
+
+<p>You understand and consent to Phunware’s Privacy Policy located at <a href="http://www.phunware.com/privacy">www.phunware.com/privacy</a>. If your use of Phunware’s software requires a Privacy Policy of your own, you also agree to include the terms of Phunware’s Privacy Policy in your Privacy Policy to your end users.</p>
+
+<hr>
+
+<p><a id="terms"></a></p>
+<h2 id='terms' class='heading'>Terms</h2>
+
+<p>Use of this software requires review and acceptance of our terms and conditions for developer use located at <a href="http://www.phunware.com/terms/">http://www.phunware.com/terms/</a></p>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="https://github.com/phunware/maas-loyalty-ios-sdk" target="_blank" rel="external">Phunware</a>. All rights reserved. (Last updated: 2021-03-19)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

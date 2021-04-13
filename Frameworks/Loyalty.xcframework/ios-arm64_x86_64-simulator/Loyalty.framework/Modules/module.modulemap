@@ -1,4 +1,0 @@
-framework module Loyalty {
-  header "Loyalty-Swift.h"
-  requires objc
-}

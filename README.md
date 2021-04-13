@@ -43,7 +43,7 @@ Loyalty.linkManager.linkUser(user: "joe@phunware.com") { [weak self] result in
 
 Phunware will maintain a pending balance for your previously opted in users on our servers.  You can request this balance at any time (after opt in).
 
-The actual user balance will be returned along with the provided image and metadata you have previously setup in the portal for your loyalty token[dani](url).
+The actual user balance will be returned along with the provided image and metadata you have previously setup in the portal for your loyalty token(url).
 
 ```swift
 Loyalty.assetManager.balance { [weak self] result in

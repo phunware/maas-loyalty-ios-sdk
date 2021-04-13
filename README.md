@@ -95,7 +95,7 @@ Loyalty.linkManager.linkWallet { [weak self] result in
 ***
 <a id="class"></a>
 ## Class Reference Documentation
-The [Reference Documentation](https://phunware.github.io/maas-loyalty-sdk-ios) has all of the detailed usage information including all the public methods, parameters, and convenience initializers.
+The [Reference Documentation](https://phunware.github.io/maas-loyalty-ios-sdk) has all of the detailed usage information including all the public methods, parameters, and convenience initializers.
 
 ***
 <a id="privacy"></a>

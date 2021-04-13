@@ -1,4 +1,4 @@
-Loyalty SDK [![Language](https://img.shields.io/badge/Swift-5.0-%234c20f0.svg)]() [![Release](https://img.shields.io/badge/Release-0.1.0-%234c20f0.svg)]()
+PhunToken Loyalty SDK [![Language](https://img.shields.io/badge/Swift-5.0-%234c20f0.svg)]() [![Release](https://img.shields.io/badge/Release-0.1.0-%234c20f0.svg)]()
 =====
 
 `PhunToken Loyalty SDK` is an iOS SDK that allows you to reward your users for in-app customer behavior that helps promote increased brand awareness, engagement and loyalty.
@@ -6,7 +6,7 @@ Loyalty SDK [![Language](https://img.shields.io/badge/Swift-5.0-%234c20f0.svg)](
 ***<sub>note</sub>*** <br/>
 > `PhunToken Loyalty SDK` currently only supports iOS projects written in **Swift 5.0**+.
 
-## [Using Loyalty SDK](#installation)
+## [Using PhunToken Loyalty SDK](#installation)
 
 ### **CocoaPods**
 
